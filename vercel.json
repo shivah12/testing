@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "env": {
+    "API_KEY"="8beb3165-d7b2-4247-96b4-d5e98df9d955",
+"NEXT_PUBLIC_APP_ID"="1e0d9876-7f65-4c83-ad27-35512ee054cf"
+  }
+}
